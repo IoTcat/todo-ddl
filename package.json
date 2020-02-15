@@ -1,6 +1,6 @@
 {
   "name": "todo-ddl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Todo manager with DDLs..",
   "main": "index.js",
   "repository": "https://github.com/iotcat/todo-ddl",
