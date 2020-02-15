@@ -6,7 +6,17 @@ const find = require(__dirname + '/utilities/find.js')();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
-var data = JSON.parse(fs.readFileSync(__dirname + '/var/data.json'));
+
+var data = {};
+
+fs.exists(__dirname + '/var/data.json', function(exists) {
+	if(exists){
+		data = JSON.parse(fs.readFileSync(__dirname + '/var/data.json'));
+	}else{
+		fs.mkdir(__dirname + '/var', ()=>{});
+	}
+});
+
 
 app.listen(13233 /*default port*/, () => console.log('todo-ddl listening on port 13233!'));
 

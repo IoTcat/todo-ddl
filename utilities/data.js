@@ -26,6 +26,7 @@ module.exports = () => {
 	};
 
 	const conf = new (require('conf'))({
+		projectName: 'todo-ddl',
 		config: {
 			type: "object",
 			default: {
