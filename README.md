@@ -48,11 +48,11 @@ td new        td add        td done
 
 ### td set
 
-+ `td new <name> [class]`: Create new tesk..
-+ `td add <id>`: Add task to todo..
-+ `td done <id>`: Finish todo..
-+ `td recover`: Recover todo from history..
-+ `td return <id>`: Return todo to task..
++ `td new <name> [class]`: Create new todo..
++ `td add <id>`: Add todo to task..
++ `td done <id>`: Finish task..
++ `td recover`: Recover task from history..
++ `td return <id>`: Return task to todo..
 + `td rm <id>`: Remove task..
 
 + `td ls`: List tasks..
