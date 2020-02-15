@@ -98,11 +98,13 @@ data:{
     createTime: (new Date()).valueOf(),
     todoTime: (new Date()).valueOf(),
     endTime: (new Date()).valueOf(),
+    lastOperateTime: (new Date()).valueOf(),
     idDel: false,
     logs: [{
       id: 'fdkr8ei9odleiw93',
       content: '',
       createTime: (new Date()).valueOf()，
+      lastOperateTime: (new Date()).valueOf(),
       isDel: false
     }]
   }]},
@@ -114,6 +116,7 @@ data:{
     link: [<tdID>],
     createTime: (new Date()).valueOf(),
     expireTime: (new Date()).valueOf(),
+    lastOperateTime: (new Date()).valueOf(),
     isDel: false
   }]}
 }
