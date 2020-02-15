@@ -14,8 +14,8 @@ Todo CLI with DDLs on nodejs.
 |   |---remote url
 |
 |---td
-|   |---task
 |   |---todo
+|   |---task
 |   |---history
 |
 |---ddl
@@ -31,7 +31,7 @@ Todo CLI with DDLs on nodejs.
 
 td new        td add        td done
 ------>      -------->     --------->
-        task          todo           history
+        todo          task           history
 <------     <--------      <---------
   td rm       td return      td recover
 
@@ -55,13 +55,13 @@ td new        td add        td done
 + `td return <id>`: Return todo to task..
 + `td rm <id>`: Remove task..
 
-+ `td ls`: List todos..
-+ `td lt`: List tasks..
++ `td ls`: List tasks..
++ `td lt`: List todos..
 + `td history`: List history
 
 ### log set
 
-+ `td select <id>`: Select todo for loging..
++ `td select <id>`: Select task for loging..
 + `td log <comment>`: Record logs..
 + `td ll`: List logs..
 + `td rml <id>`: Remove log..
@@ -69,7 +69,7 @@ td new        td add        td done
 ### ddl set
 
 + `td newd <name> <date>`: Create new ddl..
-+ `td link <ddlID> <tdID>`: Link task to ddl..
++ `td link <ddlID> <tdID>`: Link todo with ddl..
 + `td ld`: List ddls..
 + `td rmd <id>`: Remove ddl..
 
