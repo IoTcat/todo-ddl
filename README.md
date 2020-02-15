@@ -102,7 +102,8 @@ data:{
     logs: [{
       id: 'fdkr8ei9odleiw93',
       content: '',
-      createTime: (new Date()).valueOf()
+      createTime: (new Date()).valueOf()，
+      isDel: false
     }]
   }]},
   
@@ -113,6 +114,7 @@ data:{
     link: [<tdID>],
     createTime: (new Date()).valueOf(),
     expireTime: (new Date()).valueOf(),
+    isDel: false
   }]}
 }
 
