@@ -41,7 +41,7 @@ module.exports = () => {
 						for(let l2 of td2.logs){
 							if(!logs.some(item => item.id == l2.id)){
 								let l1 = td1.logs.filter(item => item.id == l2.id);
-								if(l1){
+								if(l1.length){
 									l1 = l1[0];
 									if(l1.lastOperateTime < l2.lastOperateTime){
 										logs.push(l2);
@@ -57,7 +57,7 @@ module.exports = () => {
 						for(let l1 of td1.logs){
 							if(!logs.some(item => item.id == l1.id)){
 								let l2 = td2.logs.filter(item => item.id == l1.id);
-								if(l2){
+								if(l2.length){
 									l2 = l2[0];
 									if(l2.lastOperateTime < l1.lastOperateTime){
 										logs.push(l1);
