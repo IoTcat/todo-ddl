@@ -1,6 +1,19 @@
 # todo-ddl
 Todo CLI with DDLs on nodejs.
 
+## Quick Start
+
+### Installation
+
+```sh
+$ npm i -g todo-ddl
+```
+
+### Find Help
+
+```sh
+$ td -h
+```
 
 ## Architecture
 
