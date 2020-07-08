@@ -1,13 +1,13 @@
 {
   "name": "todo-ddl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Todo manager with DDLs..",
-  "main": "index.js",
+  "main": "td",
   "repository": "https://github.com/iotcat/todo-ddl",
   "author": "iotcat <i@iotcat.me>",
   "license": "Apache-2.0",
   "bin": {
-    "td": "index.js",
+    "td": "td",
     "td-server": "server.js"
   },
   "dependencies": {
