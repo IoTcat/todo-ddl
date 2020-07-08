@@ -1,5 +1,8 @@
 module.exports = (yargs) => {
 
+	const colors = require('colors');
+	const boxen = require('boxen');
+
 	yargs = yargs
 	.command('init', "td init".green + " Clear All Data..", yargs => yargs, argv => {
 		data.td([]);
@@ -8,8 +11,6 @@ module.exports = (yargs) => {
 	})
 
 	var data = require(__dirname + '/../utilities/data.js')();
-	const colors = require('colors');
-	const boxen = require('boxen');
 
 	return yargs;
 }
