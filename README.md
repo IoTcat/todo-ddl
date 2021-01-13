@@ -1,5 +1,5 @@
 # todo-ddl
-Todo CLI with DDLs on nodejs.
+Manage your ToDo items with Logs and DDLs on nodejs.
 
 ## Quick Start
 
@@ -61,15 +61,15 @@ td new        td add        td done
 
 ### td set
 
-+ `td new <name> [class]`: Create new todo..
-+ `td add <id>`: Add todo to task..
++ `td new <name> [class]`: Create new todo item..
++ `td add <id>`: Add todo item to task..
 + `td done <id>`: Finish task..
 + `td recover`: Recover task from history..
-+ `td return <id>`: Return task to todo..
++ `td return <id>`: Return task to todo item..
 + `td rm <id>`: Remove task..
 
 + `td ls`: List tasks..
-+ `td lt`: List todos..
++ `td lt`: List todo items..
 + `td history`: List history
 
 ### log set
@@ -79,7 +79,7 @@ td new        td add        td done
 + `td ll`: List logs..
 + `td rml <id>`: Remove log..
 
-### ddl set
+### ddl (deadline) set
 
 + `td newd <name> <date>`: Create new ddl..
 + `td link <ddlID> <tdID>`: Link todo with ddl..
